@@ -2,7 +2,7 @@
 
 ![tela 1](https://user-images.githubusercontent.com/104741196/217977354-98c7576c-042c-4a30-946e-d6d2f5896acd.png)
 
-Para visualizar a página clique abaixo
+Para visualizar a página clique nome 
 [Landing Page](https://nayara12silva.github.io/LandingPage_Naruto/)
 
 Este projeto foi desenvolvido no evento "Semana do Zero ao Programador Contratado" apresentado pela Dev em Dobro. O projeto original se trata de uma landing page responsiva com tema do Super Mario-Bros.
