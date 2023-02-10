@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="img/pngwing.com (10).png" type="image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsivo.css">
+		<title> Naruto Shippuden</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted> deixar o video rolando e deixa sem som
+				 <source src="video/Naruto_Amv.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="img/pngwing.com (9).png" alt="logo akatsuki" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Animes</a></li>
+					<li><a href="#">Filmes</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="img/pngwing.com (8).png" alt="imagem do título do filme" />
+				<p class="descricao">Naruto é uma série de mangá escrita e ilustrada por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento e sonha em se tornar Hokage, o ninja líder de sua vila</p>
+				<button class="btn_modal" onclick="OpenModal()">Veja o trailer</button>
+			</div>
+			<img class="narutin" src="img/Naruto-PNG-1024x766.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar" onclick="CloseModal()">X</span>
+					<iframe id="iframe" width="600" height="450" src="https://www.youtube.com/embed/d8Qf-VLbU4Q"
+					title="[AMV] Naruto Vs Pain - Sucker Believer (Imagine Dragons)" 
+					frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					allowfullscreen>
+					</iframe>				
+			    </div>
+			</div>
+		</main>
+		<script src="script.js"></script>
+
+	</body>
+</html>
