@@ -34,3 +34,39 @@
         background-color: #263238;
     }
 }
+@media (max-width: 320px) {
+    body {
+    background-color: rgb(14, 13, 13);
+       
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .narutin {
+        max-width: 50%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-color: #263238;
+    }
+}
